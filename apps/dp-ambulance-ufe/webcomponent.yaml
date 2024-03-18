@@ -9,7 +9,7 @@ spec:
     # - umiestnený v namespace wac-hospital
   navigation:
     - element:
-      dp-ambulance-wl-app # element, ktorý bude vložený na stránku
+        dp-ambulance-wl-app # element, ktorý bude vložený na stránku
         # pri navigácii na zoznam čakajúcich
       attributes:
         - name: api-base

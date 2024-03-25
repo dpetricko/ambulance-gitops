@@ -10,6 +10,11 @@ commonLabels:
 
 resources:
   - ../../../apps/dp-ambulance-ufe
+  - ../../../apps/dp-ambulance-webapi
 
 components:
   - ../../../components/version-developers
+  - https://github.com/dpetricko/ambulance-webapi//deployments/kustomize/components/mongodb
+
+patches:
+  - path: patches/ambulance-webapi.service.yaml

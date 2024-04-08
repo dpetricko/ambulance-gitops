@@ -4,12 +4,11 @@ kind: Kustomization
 namespace: wac-hospital
 
 commonLabels:
- app.kubernetes.io/part-of: wac-hospital
- app.kubernetes.io/name: dp-ambulance-wl
+  app.kubernetes.io/part-of: wac-hospital
+  app.kubernetes.io/name: dp-ambulance-wl
 
 resources:
- - ../../../apps/dp-ambulance-ufe
-
+  - ../../../apps/dp-ambulance-ufe
 
 components:
- - ../../../components/version-release
+  - ../../../components/version-release

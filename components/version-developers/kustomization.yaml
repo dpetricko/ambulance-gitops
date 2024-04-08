@@ -9,4 +9,4 @@ images:
     newTag: 1.7.3 # {"$imagepolicy": "wac-hospital:ufe-controller:tag"}
   - name: dpetricko/ambulance-wl-webapi
     newName: dpetricko/ambulance-wl-webapi # {"$imagepolicy":  "wac-hospital:ambulance-webapi:name"}
-    newTag: main.20240325.1136 # {"$imagepolicy": "wac-hospital:ambulance-webapi:tag"}
+    newTag: main.20240408.1022 # {"$imagepolicy": "wac-hospital:ambulance-webapi:tag"}

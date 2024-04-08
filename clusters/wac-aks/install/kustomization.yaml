@@ -9,6 +9,7 @@ commonLabels:
 
 resources:
   - ../../../apps/dp-ambulance-ufe
+  - ../../../apps/dp-ambulance-webapi
 
 components:
   - ../../../components/version-release

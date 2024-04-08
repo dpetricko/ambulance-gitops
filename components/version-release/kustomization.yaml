@@ -6,7 +6,7 @@ images:
     newTag: 1.0.1
   - name: dpetricko/ambulance-wl-webapi
     newName: dpetricko/ambulance-wl-webapi
-    newTag: 1.1.0
+    newTag: 1.1.1
 
 replacements:
   - targets:

@@ -8,6 +8,6 @@ commonLabels:
   app.kubernetes.io/component: oauth2-proxy
 
 resources:
-- deployment.yaml
-- service.yaml
-- http-route.yaml
+  - deployment.yaml
+  - service.yaml
+  - http-route.yaml
